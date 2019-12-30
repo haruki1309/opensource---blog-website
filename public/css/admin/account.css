@@ -1,0 +1,55 @@
+#noti-wrapper{
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#noti-wrapper .errors{
+	background: #FF9494;
+	height: auto;
+	padding: 10px;
+}
+
+#noti-wrapper .notifications{
+	background: #8DC38F;
+	height: auto;
+	padding: 10px;
+}
+
+#noti-wrapper ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.save-btn{
+	outline: none;;
+	border: 0px;
+	padding: 10px 40px;
+	border-radius: 4px;
+	border: 1px solid #06A4AD;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(21,180,189,1) 3.1%, rgba(1,159,168,1) 90% );
+	color: #111;	
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.change-btn{
+	outline: none;;
+	border: 1px solid #06A4AD;
+	padding: 10px 40px;
+	border-radius: 4px;
+	color: #06A4AD;	
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+}
+	
+.avt{
+	width: 300px;
+	height: 300px;
+}
+
+textarea{
+	min-height: 180px;
+	height: auto;
+}

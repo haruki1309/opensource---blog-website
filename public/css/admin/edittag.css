@@ -1,0 +1,19 @@
+#grid-ele{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 10px;
+}
+
+.tag-name{
+	line-height: 160px;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.post-count{
+	line-height: 160px;
+	font-size: 18px;
+	font-style: italic;
+}

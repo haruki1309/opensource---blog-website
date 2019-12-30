@@ -1,0 +1,117 @@
+#controller-wrap{
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	background: #fff;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#controller-wrap::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#controller-wrap form{
+	float: left;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#controller-wrap form input{
+	width: 300px;
+	outline: none;
+	margin-right: 10px;
+}
+
+#controller-wrap form button{
+	width: 120px;
+	height: 40px;
+	border: 0;
+	border-radius: 4px;
+	outline: none;
+	color: #fff;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(21,180,189,1) 3.1%, rgba(1,159,168,1) 90% );
+}
+
+
+#controller-wrap a{
+	float: right;
+	display: block;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(21,180,189,1) 3.1%, rgba(1,159,168,1) 90% );
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+#table-posts{
+	width: 100%;
+	margin: auto;
+	padding: 20px 10px;
+	background: #fff;
+	min-height: 300px;
+}
+
+.table-name{
+	text-transform: uppercase;
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#table-posts table{
+	width: 100%;
+	font-size: 14px;
+	overflow-x: scroll;
+}
+
+#table-posts tr{
+	height: 55px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#table-posts .table-header{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#table-posts .tb-col-number{
+	width: 60px;
+}
+
+#table-posts .tb-col-title{
+	width: 480px;
+}
+
+#table-posts .tb-col-date{
+	width: 100px;
+}
+
+#table-posts .tb-col-btn{
+	width: 40px;
+	color: red;
+	margin-left: 10px;
+}
+
+#table-posts a{
+	display: block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #6c757d;
+}
+
+#table-posts a:hover{
+	color: #348cd4;
+	transition: 0.3s;
+}

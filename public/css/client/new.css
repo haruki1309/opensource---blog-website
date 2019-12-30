@@ -1,0 +1,103 @@
+#content-container{
+    padding-top: 20px;
+}
+
+#content-container .category{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#content-container a{
+    text-decoration: none;
+    color: #000;
+}
+
+#content-container .post{
+    display: block;
+    margin-bottom: 60px;
+    height: 450px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+#content-container .post:hover .img-wrapper .hover-effect{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#content-container .post .img-wrapper{
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+
+#content-container .post .img-wrapper .hover-effect-wrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#content-container .post .img-wrapper .hover-effect{
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#content-container .post .img-wrapper .hover-effect .content-readmore{
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    overflow-x: all;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#content-container .post img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    display: block;
+}
+
+#content-container .post .post-title{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    max-height: 3.2em;
+    line-height: 1.6em;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+#content-container .post .post-published-date{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+    font-style: italic;
+}
+
+#content-container .post .post-description{
+    font-size: 13px;
+    height: 4.8em;
+    line-height: 1.6em;
+    margin-top: 10px;
+    overflow: hidden;
+}

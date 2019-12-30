@@ -1,0 +1,129 @@
+#noti-wrapper{
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#noti-wrapper .errors{
+	background: #FF9494;
+	height: auto;
+	padding: 10px;
+}
+
+#noti-wrapper .notifications{
+	background: #8DC38F;
+	height: auto;
+	padding: 10px;
+}
+
+#noti-wrapper ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#tag-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+.table-posts{
+	padding: 20px 10px;
+	background: #fff;
+	height: auto;
+}
+
+.table-name{
+	text-transform: uppercase;
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.table-posts table{
+	width: 100%;
+	font-size: 14px;
+	overflow-x: scroll;
+}
+
+.table-posts tr{
+	height: 55px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-posts .table-header{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-posts .tb-col-number{
+	width: 60px;
+}
+
+.table-posts .tb-col-title{
+	width: 480px;
+}
+
+.table-posts .tb-col-date{
+	width: 100px;
+}
+
+.table-posts .tb-col-btn{
+	width: 40px;
+	color: red;
+	margin-left: 10px;
+}
+
+.table-posts form{
+	height: 140px;
+}
+
+.table-posts form input{
+	width: 100%;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 4px 6px;
+}
+
+.table-posts form #sel-tag{
+	width: 100%;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+}
+
+.table-posts form button{
+	width: 100px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(21,180,189,1) 3.1%, rgba(1,159,168,1) 90% );
+	float: right;
+	cursor: pointer;
+	height: 40px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+.table-posts a{
+	display: block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #6c757d;
+}
+
+.table-posts a:hover{
+	color: #348cd4;
+	transition: 0.3s;
+}
+
+#name-error{
+	font-size: 10px;
+	color: red;
+}

@@ -1,0 +1,87 @@
+body{
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+input{
+	padding: 6px 4px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+
+#side-bar{
+	background: #212120;
+	height: auto;
+	padding: 50px 10px;
+	overflow-x: hidden;
+	color: #fff;
+}
+
+#logo-name{
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#logo-section{
+	text-align: center;
+}
+
+#logo-section img{
+	width: 40px;
+	height: 40px;
+	border: 2px solid #fff;
+	margin-bottom: 10px;
+}
+
+#side-menu{
+	margin-top: 40px;
+}
+
+#side-menu a{
+	display: block;
+	text-decoration: none;
+	font-weight: 450;
+	font-size: 16px;
+	height: 3em;
+	line-height: 3em;
+	padding-left: 10px;
+	overflow-x: hidden;
+	color: #F3F2EE;
+}
+
+#side-menu a i{
+	margin-right: 16px;
+} 
+
+.side-menu-active{
+	border-right: 5px solid #11B0B9;
+}
+
+#content{
+	padding: 50px;
+	background: #f3f3f3;
+	height: auto;
+	min-height: 100vh;
+}
+
+@media screen and (max-width: 991px) {
+	#logo-name{
+		display: none;
+	}
+	#side-bar{
+		width: 60px;
+		text-align: center;
+	}
+	#side-menu span{
+		display: none;
+	}
+	#content{
+		padding: 50px 10px;
+	}
+	body{
+		grid-template-columns: 1fr 10fr;
+	}
+}
