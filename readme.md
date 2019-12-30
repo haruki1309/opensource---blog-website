@@ -56,10 +56,10 @@ localhost/personalblog/public/
 ### Versioning
 
 The current version is v.1.0.
-We will try to develope more in future.
+I will try to develope more in future.
 
 ## Authors
 
 - Bùi Trung Tín - 16521239
 
-Contact us by email: trungtin0904@gmail.com
+Contact me by email: trungtin0904@gmail.com
